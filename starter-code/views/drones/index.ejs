@@ -1,0 +1,10 @@
+<ul>
+  <% drones.forEach((oneDrone) => { %>
+    <li>
+        <h3><%=oneDrone.name%></h3>
+      <p>Number of Propellers: <%=oneDrone.propellers%></p>
+      <p>Max Speed: <%=oneDrone.maxSpeed%></p>
+      <a class= "" href="/drones/delete?myId=<%= oneDrone._id %>">Delete</a> -->
+    </li>
+  <% }); %>
+</ul>
